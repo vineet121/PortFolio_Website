@@ -11,22 +11,36 @@
   margin: auto;
 
   svg {
-    width: 100%;
+    width: 740%;
     height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
+    top: -200%;
+    transform: rotateX(180deg) !important;
+    object-fit: fill;
   }
 
   .solid-logo {
     position: absolute;
-    top: auto;
+    top: 30rem;
     right: auto;
     bottom: auto;
     left: 0;
     margin: auto;
-    width: 110%;
+    width: 120%;
     opacity: 0;
-    transform: rotateZ(12deg) !important;
+    transform: rotateZ(0deg) !important;
+    z-index: 1;
+  }
+
+  .person-logo {
+    position: absolute;
+    top: 2rem;
+    right: auto;
+    bottom: auto;
+    left: -5rem;
+    margin: auto;
+    width: 120%;
+    opacity: 0;
+    transform: rotateZ(0deg) !important;
     z-index: 1;
   }
 }
