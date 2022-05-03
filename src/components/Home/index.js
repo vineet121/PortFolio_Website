@@ -64,7 +64,7 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <a href="https://drive.google.com/file/d/12UJLdCvmcUthtnmjJDignkjLxUHNOfF3/view?usp=sharing" className='flat-button' target="_blank" style={{ marginLeft: '12px' }}>RESUME</a>
+          <a href="https://drive.google.com/file/d/12UJLdCvmcUthtnmjJDignkjLxUHNOfF3/view?usp=sharing" className='flat-button' target="_blank" rel="noreferrer" style={{ marginLeft: '12px' }}>RESUME</a>
 
         </div>
         <Logo />
