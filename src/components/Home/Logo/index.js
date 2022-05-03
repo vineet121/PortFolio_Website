@@ -17,11 +17,11 @@ const Logo = () => {
       .timeline()
       .to(bgRef.current, {
         duration: 1,
-        opacity: 1,
+        opacity: 0.9,
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 20,
+        duration: 14,
       })
 
     gsap.fromTo(
@@ -30,21 +30,21 @@ const Logo = () => {
         opacity: 0,
       },
       {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
+        opacity: 0.9,
+        delay: 8,
+        duration: 5,
       }
     )
   }, [])
 
   return (
     <div className="logo-container" ref={bgRef}>
-      {/* <img
+      <img
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
         alt="JavaScript,  Developer"
-      /> */}
+      />
 
 
       <g

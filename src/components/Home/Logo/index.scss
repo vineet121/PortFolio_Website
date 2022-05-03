@@ -11,7 +11,7 @@
   margin: auto;
 
   svg {
-    width: 740%;
+    width: 720%;
     height: auto;
     top: -200%;
     transform: rotateX(180deg) !important;
@@ -20,12 +20,12 @@
 
   .solid-logo {
     position: absolute;
-    top: 30rem;
+    top: 3.3rem;
     right: auto;
     bottom: auto;
-    left: 0;
+    left: 0.1rem;
     margin: auto;
-    width: 120%;
+    width: 100%;
     opacity: 0;
     transform: rotateZ(0deg) !important;
     z-index: 1;

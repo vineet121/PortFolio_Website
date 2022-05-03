@@ -11,6 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import PersonalPhoto from "../../assets/images/Vineet.png"
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,7 +25,14 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
+        <div className="Personal-Photo">
+          <img
+            src={PersonalPhoto}
+            alt="JavaScript,  Developer"
+          />
+        </div>
         <div className="text-zone">
+
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -32,6 +40,8 @@ const About = () => {
               idx={15}
             />
           </h1>
+        </div>
+        <div className="text-zon">
           <p>
             I'm very ambitious front-end developer looking for a role in
             established IT company with the opportunity to work with the latest
@@ -42,9 +52,7 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in one sentence that would be a enthusiastic man, willing to put in work to achieve my goals, a sports fanatic, and tech-obsessed!!!
           </p>
         </div>
 
