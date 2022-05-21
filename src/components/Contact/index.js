@@ -21,15 +21,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        '9UkwAXzP7HWpYoGx6',
+        'service_ou292ic',
         'template_0k3auf6',
         form.current,
-        'AFRO2-HA0s9PxXrXryZpC'
+        '9UkwAXzP7HWpYoGx6'
       )
       .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+        (result) => {
+          alert('Message Sent Successfully')
+          console.log(result);
         },
         () => {
           alert('Failed to send the message, please try again')
